@@ -1,0 +1,40 @@
+{
+    "name": "pos-lifestyle/laravel-nova-text-filter",
+    "description": "A Laravel Nova filter.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan Hähne",
+            "email": "jan.haehne@pos-lifestyle.de",
+            "homepage": "https://github.com/jhae-de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/pos-lifestyle/laravel-nova-text-filter/issues"
+    },
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PosLifestyle\\TextFilter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PosLifestyle\\TextFilter\\FilterServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
