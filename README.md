@@ -1,1 +1,1 @@
-# laravel-nova-text-filter
+# Laravel Nova Text Filter
